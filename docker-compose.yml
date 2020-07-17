@@ -1,0 +1,15 @@
+---
+version: '2'
+
+services:
+  app:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - "storage:/app/storage"
+      - ".env:/app/.env"
+    restart: always
+
+volumes:
+  storage:
