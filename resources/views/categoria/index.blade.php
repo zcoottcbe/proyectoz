@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
       <div class="card" style="margin-top: 1em">
-        <div class="card-header">Categorias</div>
+        <div class="card-header">Categorias Prueba</div>
         <div class="card-body container">
             <div class="row">
                 <div class="col-md-3 offset-md-9" style="text-align: right; margin-bottom: 5px;">
